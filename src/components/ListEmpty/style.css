@@ -1,0 +1,43 @@
+.containerListaVazia{
+  text-align: left;
+}
+
+.listaVazia{
+  margin-top: 25px;
+  display: flex;
+  width: 35em;
+  height: 5.6em;
+  background-color: #F8F9FA;
+  margin-bottom: 40px;
+  border-radius: 4px;
+}
+
+.linhaCinza{
+  color: #E9ECEF;
+  background-color: #E9ECEF;
+
+}
+
+.containerBarras{
+  margin-left:12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: 100%;
+}
+
+.barraCinza1{
+  color: #E9ECEF;
+  background-color: #E9ECEF;
+  width: 20.6em;
+  height: 0.8em;
+  margin-bottom: 15px;
+}
+
+.barraCinza2{
+  color: #E9ECEF;
+  background-color: #E9ECEF;
+  width: 4.7em;
+  height: 0.8em;
+}

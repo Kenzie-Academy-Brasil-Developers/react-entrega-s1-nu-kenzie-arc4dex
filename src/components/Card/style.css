@@ -1,0 +1,49 @@
+.li{
+  list-style: none;
+  display: flex;
+}
+
+.faixaVerde{
+  width: 4px;
+  height: 5.6em;
+  background-color: #03B898;
+  color: #03B898;
+  border-radius: 4px 0 0 4px;
+}
+
+.faixaCinza{
+  width: 4px;
+  height: 5.6em;
+  background-color: grey;
+  color: grey;
+  border-radius: 4px 0 0 4px;
+}
+
+.containerCard{
+  display: flex;
+  justify-content: space-between;
+  width: 35em;
+  height: 5.6em;
+  margin-bottom: 40px;
+  background-color: #F8F9FA;
+  border-radius: 4px;
+}
+
+.tipoDinheiro{
+  margin-left: 20px;
+  text-align: left;
+}
+
+.containerValor{
+  align-items: center;
+  margin-right: 13px;
+  margin-bottom: 25px;
+}
+
+.imgLixeira{
+  max-width: 10px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+

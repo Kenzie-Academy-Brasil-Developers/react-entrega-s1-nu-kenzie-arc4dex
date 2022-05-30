@@ -1,0 +1,29 @@
+.barraNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 35em;
+}
+
+.containerButtons{
+  width: 17em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnNav{
+  width: 5.6em;
+  height: 2.5em;
+  border-radius: 8px;
+  background-color: #E9ECEF;
+  font-size: 14px;
+  color: #5B6166;
+  border: none;
+  cursor: pointer;
+}
+
+.btnNav:hover{
+  background-color: #FD377E;
+  color: #FFFFFF;
+}

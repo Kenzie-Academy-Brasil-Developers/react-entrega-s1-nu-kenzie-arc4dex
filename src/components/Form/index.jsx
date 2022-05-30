@@ -34,8 +34,8 @@ function Form({ listTransactions, setListTransactions, copyList, setCopyList }){
       <select className='select' onChange={(event) => {
         setTypeInicial(event.target.value)
         }}>
-        <option className='option' type='entrada' value='entrada'>entrada</option>
-        <option className='option'  type='saida' value='saida'>saida</option>
+        <option className='option' value='entrada'>entrada</option>
+        <option className='option' value='saida'>saída</option>
       </select>
       </section>
       <button className='btnSubmit' type="submit">Inserir o valor</button>

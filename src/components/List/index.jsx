@@ -9,9 +9,9 @@ function List({ listTransactions, setListTransactions, mostrarEntrada, mostrarSa
   })
 
   const saida = listTransactions.filter((item) => {
-    return item.type === 'saída'
+    return item.type === 'saida'
   })
-
+  
 
   function itemDeleted(index, transaction){
     
@@ -26,12 +26,14 @@ function List({ listTransactions, setListTransactions, mostrarEntrada, mostrarSa
   }
 
   return (
+    
     <>
       <ul> 
+      {console.log(listTransactions)}
         {
-          mostrarEntrada && mostrarSaida ? (listTransactions.map((transactions, index) => <Card transaction={transactions} key={index} index = {index} itemDeleted = {itemDeleted}/>)) : 
-          mostrarSaida === false ? (entradas.map((transactions, index) => <Card transaction={transactions} key={index} index = {index} listTransactions={listTransactions} itemDeleted = {itemDeleted}/>)) : 
-          (saida.map((transactions, index) => <Card transaction={transactions} key={index} index = {index} listTransactions={listTransactions} itemDeleted = {itemDeleted}/>))
+          mostrarEntrada && mostrarSaida ? (listTransactions.map((transactions, index) => <Card transaction={transactions} key={index} index = {index} itemDeleted = {itemDeleted}/>)) 
+          : mostrarSaida === false ? (entradas.map((transactions, index) => <Card transaction={transactions} key={index} index = {index} listTransactions={listTransactions} itemDeleted = {itemDeleted}/>)) 
+          : (saida.map((transactions, index) => <Card transaction={transactions} key={index} index = {index} listTransactions={listTransactions} itemDeleted = {itemDeleted}/>))
         }
       </ul>
     </>

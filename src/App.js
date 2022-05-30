@@ -7,6 +7,7 @@ import HomePage2 from './components/HomePage2';
 function App() {
 
   const [listTransactions, setListTransactions] = useState([
+   
 ])
 
   const [ iniciar, setIniciar ] = useState(false)
